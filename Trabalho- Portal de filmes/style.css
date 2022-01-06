@@ -1,0 +1,491 @@
+html{
+    height: 100%; 
+    
+ }
+
+
+.header {
+background: rgb(194, 194, 194);
+padding: 0%;
+}
+.menu1{
+    position: absolute;
+    padding: 0%;
+    top: 0px;
+    left: 50%;
+    margin-left: -100px;
+    text-align: center;
+}
+
+.main div h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(9, 9, 29);
+}
+
+.logo{
+max-width: 120px;
+
+
+}
+.barrapesquisa{
+    margin: auto 0;
+    padding :4px ;
+    align-items: center;
+}
+
+section div .logo {
+    margin: 10px;
+    align-items: center;
+}
+.colunamenu nav a  {
+text-decoration: none;
+color:white;
+padding: 3.8px; 
+text-align: center;
+margin-top: 25px; 
+font-size:20px ;
+
+}
+.colunamenu{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+   
+    
+}
+.colunamenu nav a:hover{/*Quando se passar o mouse por essa área, acontecerá o código abaixo*/
+    background-color: #8d8d8d;
+}
+.active{
+    background-color: #a7a4a4 !important;
+}
+
+#lancamento {
+    background: rgb(161, 159, 159);
+    padding: 0px;
+    margin: 0px;
+}
+
+.carrosel div p{
+text-align: right;
+
+}
+
+.fundocarossel{
+    background: rgb(214, 211, 211);
+padding: 0px;
+margin: 0px;
+
+}
+section div input{
+text-align: center;
+align-items: center;
+margin: 25px;
+max-width: 90%;
+}
+
+
+.lanc{
+    text-align: left;
+}
+.categoria{
+text-align:right;
+
+}
+
+
+.cards div img {
+max-width: 300px;
+padding: 10px;
+margin: 0%;
+align-items: center;
+border-width: 20px;
+border-style: groove;
+}
+.sectionfilmes div {
+align-items: center;
+   text-align:center ;
+}
+
+.carregarmais{
+text-align: right;
+margin: 20px;
+}
+.carregarmais2{
+    text-align: right;
+    margin: 20px;
+
+}
+.carregarmais3{
+    text-align: right;
+    margin: 0px;
+    background: rgb(214, 211, 211);
+margin-bottom: 20px;
+padding: 20px;
+}
+
+h2{
+padding: 20px;
+}
+
+.makingof{
+    width:350px;
+     height:280px;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    
+
+}
+section div iframe {
+    padding: 20px;
+    margin: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+section div h5{
+    text-align: center;
+    font-size: 17px;
+}
+section div p{
+    text-align: center;
+    font-size: 14px;
+}
+
+section div h2{
+
+    text-align: left;
+}
+
+.desc{
+    text-align: center;
+}
+
+section div .h1final{
+
+    text-align: left;
+    margin: 0%;
+    padding: 5px;
+}
+
+section div .pfinal{
+    text-align: left;
+    
+}
+
+.fotoava{
+    max-width:60px ;
+    padding: 0%;
+    margin: 0%;
+   
+ 
+}
+.entrevistas{
+    background: rgb(214, 211, 211);
+   
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+.entrevistas div {
+    align-items: center;
+    text-align:center ;
+}
+
+#mais {
+    font-size: 35px;
+}
+.botao {
+    margin: 0%;
+    padding: 0%;
+    margin-top: 10px;
+    text-align:center ;
+    align-items: center;
+}
+.dropbox{
+padding: 28px;
+
+
+}
+#dropdownMenuButton{
+    background: white;
+    color: black;
+}
+.rowvideo div iframe{
+
+align-items: left;
+border: none;
+
+}
+.fundoentrevistas{
+   background: rgb(214, 211, 211);
+
+}
+.rowvideo{
+    padding: 0px;
+    margin: 50px;
+    align-items: center;
+  
+}
+
+div .sinopse{
+    text-align: justify;
+    align-items: justify;
+}
+
+.card123{
+
+    max-width: 50px;
+    border-style: groove;
+   
+}
+
+.imagensnoticia{
+    max-width: 300px;
+    
+    padding: 20px;
+}
+
+.textonoticias{
+
+    text-align: left;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+p {text-align:justify;}
+
+
+.titulonoticias {
+    font-size: 18px;
+}
+
+
+h1{margin: 0 auto; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    
+    
+}
+.lancamentosback{
+    background: rgb(168, 164, 164);
+ 
+
+}
+
+
+   
+
+.rowcards div img{
+align-items: left;
+
+}
+
+.container {max-width: 100%;
+}
+.container header {max-width: 100%;
+}
+.titulofilme{
+text-align: center;
+
+
+}
+
+ .cardss { border-style: solid;
+border-width: 4px;
+padding: 10px;
+
+}
+
+footer {
+    background: rgb(214, 211, 211);
+}
+
+.logofinal{
+
+    align-items: center;
+    max-width: 250px;
+    padding: 35px;
+}
+
+.rodape{
+    margin: 45px;
+    padding: 18px;
+    font-size: 26px;
+    }
+   
+
+    .card-title{
+        text-align: center;
+    }
+    .card-img-top{
+        border-radius: 20%;
+        border-width: 15px;
+        border-style:double;
+    }
+
+    .card-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+
+    }
+    .datalanc{
+        text-align: center;
+        color: rgb(81, 83, 214);
+    }
+    
+   .botaocarregar{
+       text-align: center;
+       
+   }
+ 
+.card-body  a{
+    align-items: center;
+}
+   
+   #botaocarregar{
+       font-size: 30px;
+       height: 140px;
+       width: 100%;
+       background-color: darkslategrey;
+      margin-top: 20px;
+      margin-bottom: 40px;
+   }
+
+    .tagsnovidades {
+
+    
+        border-width: 5px;
+        border-style:solid;
+        border-radius: 15px;
+        background-color: darkslategray;
+        text-align: center;
+        margin: 10px;
+        
+    }
+    
+  .linhatags{
+
+    align-items: center ;
+  }
+
+  #menuToggle {
+    display: none;
+  }
+.menu-icon {
+    display: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:600px){
+    .header{
+        background-position: 0px -50px;
+    } 
+}
+
+@media screen and (min-width:601px) and (max-width:980px){
+    .header{
+        background-position: 0px -100px;
+    } 
+}
+
+@media screen and (max-width: 1000px) {
+
+    .header{        
+        position: fixed;
+        top: 0px;        
+        z-index: 999;
+        max-width:100% !important;
+    }
+    .container_nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .main{
+        margin-top: 140px;
+    }
+
+    .menu1 {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 320px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+
+    .menu1 a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .menu-icon {
+        width: 50px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 55px;
+        right: 30px;
+        line-height: 60px;
+        color: white;
+        z-index: 999;
+    }
+    #menuToggle:checked ~ label i:nth-child(2) {
+      display: block;
+    }
+    #menuToggle:checked ~ label i:first-child {
+      display: none;
+    }
+    #menuToggle:not(:checked) ~ label i:first-child {
+      display: block;
+    }
+    #menuToggle:not(:checked) ~ label i:nth-child(2) {
+      display: none;
+    }
+  
+    #menuToggle:checked ~ nav {
+        height: 100%;
+    }
+    .menu-icon i {
+        font-size: 2.0em;
+        padding: 0;
+        margin-top:0px ;
+        text-align: right;
+    }
+
+    .colunalogo {
+
+text-align: center;
+
+    }
+    .barrapesquisa{
+
+        text-align: center;
+    }
+
+    .videoc {
+
+      width: 100%;
+      
+    }
+
+    footer {text-align: left;}
+}
+

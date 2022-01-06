@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portal de filmes</title>
+
+</head>
+
+<body >
+
+  <header class=" container header">
+    <section class="col-12 area-cabecalho">
+      <div class="row">
+        <!--uma linha da área do cabeçalho-->
+        <div class="col-12 col-sm-12 col-md-1 col-lg-2 colunalogo">
+          <!--uma parte da linha do container, a logo vai ocupar algumas colunas-->
+          <img src="img/logo.jpg" class="logo">
+        </div>
+
+
+        <!--Menu mobile-->
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7 colunamenu">
+          <input type="checkbox" id="menuToggle">
+          <label for="menuToggle" class="menu-icon">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times-circle"></i>
+          </label>
+
+          <!--Menu-->
+          <nav class="nav menu1">
+            <a class="nav-link active" href="#"> Home Page </a>
+            <a class="nav-link" href="PáginaPesquisa.html"> Página de pesquisa </a>
+          </nav>
+        </div>
+        <!--Barra de pesquisa-->
+        <div class="col-12 col-sm-12 col-md-4 col-lg-3 barrapesquisa">
+
+          <input type="text" id="pesquisa"> <button onclick="pesquisaFilmes()">Pesquisar</button>
+        </div>
+
+      </div>
+    </section>
+
+  </header>
+
+  <main class="main">
+
+
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+    <div class="container-fluid">
+      <div class="row" id="tela">
+        <div class="card col-md-3">
+          <img src="img/filme1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Harry Potter e a Pedra Filosofal</h5>
+            <p class="card-text">Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe
+              uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens
+              bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o
+              guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais
+              imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger.</p>
+            <p class="datalanc">2001/11/16 </p><br><br>
+            <a href="https://www.themoviedb.org/movie/671-harry-potter-and-the-philosopher-s-stone" target="_blank"
+              class="btn btn-primary">MAIS INFORMAÇÕES</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img src="img/filme2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Harry Potter e a Câmara Secreta</h5>
+            <p class="card-text">Após as sofríveis férias na casa dos tios, Harry Potter se prepara para voltar a
+              Hogwarts e começar seu segundo ano na escola de bruxos. Na véspera do início das aulas, a estranha
+              criatura Dobby aparece em seu quarto e o avisa de que voltar é um erro e que algo muito ruim pode
+              acontecer se Harry insistir em continuar os estudos de bruxaria. O garoto, no entanto, está disposto a
+              correr o risco e se livrar do lar problemático.</p>
+            <p class="datalanc">2002/11/13</p><br><br>
+            <a href="https://www.themoviedb.org/movie/672-harry-potter-and-the-chamber-of-secrets" target="_blank"
+              class="btn btn-primary">MAIS INFORMAÇÕES</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img src="img/filme3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Harry Potter e o Prisioneiro de Askaban</h5>
+            <p class="card-text">O 3º ano de ensino na Escola de Magia e Bruxaria de Hogwarts se aproxima. Porém um
+              grande perigo ronda a escola: o assassino Sirius Black fugiu da prisão de Azkaban, considerada até então
+              como à prova de fugas. Para proteger a escola são enviados os Dementadores, estranhos seres que sugam a
+              energia vital de quem se aproxima deles, que tanto podem defender a escola como piorar ainda mais a
+              situação.</p>
+            <p class="datalanc">2004/05/31</p><br><br>
+            <a href="https://www.themoviedb.org/movie/673-harry-potter-and-the-prisoner-of-azkaban" target="_blank"
+              class="btn btn-primary">MAIS INFORMAÇÕES</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img src="img/filme4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Harry Potter e o Cálice de Fogo</h5>
+            <p class="card-text">Em seu 4º ano na Escola de Magia e Bruxaria de Hogwarts, Harry Potter é misteriosamente
+              selecionado para participar do Torneio Tribruxo, uma competição internacional em que precisará enfrentar
+              alunos mais velhos e experientes de Hogwarts e também de outras escolas de magia. Além disso a aparição da
+              marca negra de Voldemort ao término da Copa do Mundo de Quadribol põe a comunidade de bruxos em pânico, já
+              que sinaliza que o temido bruxo está prestes a retornar.</p>
+            <p class="datalanc">2005/11/16</p><br><br>
+            <a href="https://www.themoviedb.org/movie/674-harry-potter-and-the-goblet-of-fire" target="_blank"
+              class="btn btn-primary" >MAIS INFORMAÇÕES</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <section class="col-12">
+        <div class="row">
+          <div class="col-12 col-md--12 col-lg-12 botaocarregar">
+           
+          <button id="botaocarregar" onclick="carregaFilmes()">Carregar Filmes Populares</button>
+        
+      </div>
+      <section>
+
+      </section>
+
+
+
+
+
+      <!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+      <!--Filmes em destaque-->
+      <div class="container">
+        <section class="col-12">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg6 lanc">
+              <h2>Saga Harry Potter</h2>
+            </div>
+            <!--
+            <div class="col-12 col-md-6 col-lg6 categoria dropbox">
+              <button class="btn btn-secondary dropdown-toggle  type=" button id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CATEGORIA:Todos
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Aventura</a>
+                <a class="dropdown-item" href="#">Romance</a>
+                <a class="dropdown-item" href="#">Comédia</a>
+              </div>
+            </div> -->
+          </div>
+      </div>
+    </section>
+    </div>
+
+    <!--Container para os filmes em lançamento-->
+    <div id="telaFilmesPo" class="container">
+      <section class="col-12 sectionfilmes">
+        <div class="container-fluid">
+          <div class="row" id="tela">
+            <div class="card col-md-3">
+              <img src="img/filme1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Harry Potter e a Pedra Filosofal</h5>
+                <p class="card-text">Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe
+                  uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens
+                  bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o
+                  guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais
+                  imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger.</p>
+                <p class="datalanc">2001/11/16 </p><br><br>
+                <a href="https://www.themoviedb.org/movie/671-harry-potter-and-the-philosopher-s-stone" target="_blank"
+                  class="btn btn-primary">MAIS INFORMAÇÕES</a>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img src="img/filme2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Harry Potter e a Câmara Secreta</h5>
+                <p class="card-text">Após as sofríveis férias na casa dos tios, Harry Potter se prepara para voltar a
+                  Hogwarts e começar seu segundo ano na escola de bruxos. Na véspera do início das aulas, a estranha
+                  criatura Dobby aparece em seu quarto e o avisa de que voltar é um erro e que algo muito ruim pode
+                  acontecer se Harry insistir em continuar os estudos de bruxaria. O garoto, no entanto, está disposto a
+                  correr o risco e se livrar do lar problemático.</p>
+                <p class="datalanc">2002/11/13</p><br><br>
+                <a href="https://www.themoviedb.org/movie/672-harry-potter-and-the-chamber-of-secrets" target="_blank"
+                  class="btn btn-primary">MAIS INFORMAÇÕES</a>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img src="img/filme3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Harry Potter e o Prisioneiro de Askaban</h5>
+                <p class="card-text">O 3º ano de ensino na Escola de Magia e Bruxaria de Hogwarts se aproxima. Porém um
+                  grande perigo ronda a escola: o assassino Sirius Black fugiu da prisão de Azkaban, considerada até então
+                  como à prova de fugas. Para proteger a escola são enviados os Dementadores, estranhos seres que sugam a
+                  energia vital de quem se aproxima deles, que tanto podem defender a escola como piorar ainda mais a
+                  situação.</p>
+                <p class="datalanc">2004/05/31</p><br><br>
+                <a href="https://www.themoviedb.org/movie/673-harry-potter-and-the-prisoner-of-azkaban" target="_blank"
+                  class="btn btn-primary">MAIS INFORMAÇÕES</a>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <img src="img/filme4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Harry Potter e o Cálice de Fogo</h5>
+                <p class="card-text">Em seu 4º ano na Escola de Magia e Bruxaria de Hogwarts, Harry Potter é misteriosamente
+                  selecionado para participar do Torneio Tribruxo, uma competição internacional em que precisará enfrentar
+                  alunos mais velhos e experientes de Hogwarts e também de outras escolas de magia. Além disso a aparição da
+                  marca negra de Voldemort ao término da Copa do Mundo de Quadribol põe a comunidade de bruxos em pânico, já
+                  que sinaliza que o temido bruxo está prestes a retornar.</p>
+                <p class="datalanc">2005/11/16</p><br><br>
+                <a href="https://www.themoviedb.org/movie/674-harry-potter-and-the-goblet-of-fire" target="_blank"
+                  class="btn btn-primary">MAIS INFORMAÇÕES</a>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+    </section>
+    </div>
+
+    <!--Container para o botão de carregar-->
+    <!--<div class="container">
+      <section class="row">
+        <div class="col-12">
+          <div class="col-12 carregarmais">
+            <button id="btnCarregar" type="button" class="btn btn-secondary btn-lg botao"><span
+                id="mais">+</span>Carregar mais
+              filmes</button>
+
+          </div>
+        </div>
+    </div>-->
+
+
+    <!--Cards de avaliação-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h2>Últimas avaliações</h2>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="container rowcards">
+
+      <div class="row ">
+        <div class=" col-12 col-lg-4 cardss">
+
+          <div>
+            <p><img class="card123" src="img/foto1.jpg"><strong>Lucas Henrique</strong></p>
+
+          </div>
+          <div>
+            <p><strong>Avaliação:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus hic
+              consequatur dolor, voluptates accusamus ipsam earum asperiores molestias laudantium aspernatur porro. Nisi
+              ullam maiores fugiat nam repellat earum excepturi?</p>
+          </div>
+          <div>
+            <p> &#11088 &#11088 <strong> 20/04/2021 </strong></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 cardss">
+          <div>
+            <p><img class="card123" src="img/foto2.jpg"><strong>Francisco</strong></p>
+          </div>
+
+          <div>
+            <p><strong>Avaliação:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus hic
+              consequatur dolor, voluptates accusamus ipsam earum asperiores molestias laudantium aspernatur porro. Nisi
+              ullam maiores fugiat nam repellat earum excepturi?</p>
+          </div>
+          <div>
+            <p>&#11088 &#11088 &#11088 <strong> 20/04/2021 </strong> </p>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-lg-4 cardss">
+          <div>
+            <p><img class="card123" src="img/foto3.jpg"><strong>O bruxo</strong></p>
+          </div>
+
+          <div>
+            <p><strong>Avaliação:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus hic
+              consequatur dolor, voluptates accusamus ipsam earum asperiores molestias laudantium aspernatur porro. Nisi
+              ullam maiores fugiat nam repellat earum excepturi?</p>
+          </div>
+          <div>
+            <p> &#11088 &#11088 &#11088 &#11088 &#11088 <strong> 20/04/2021 </strong> </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--Container para o botão de carregar
+    <div class="container">
+      <section class="row col-12">
+        <div class="col-12 carregarmais">
+          <button type="button" class="btn btn-secondary btn-lg botao"><span id="mais">+</span>Carregar mais
+            avaliações</button>
+
+        </div>
+    </div>
+    </div>
+    </section>  -->
+
+    <!--Entrevistas e makinof-->
+    
+
+    <!--Novidades-->
+    <section class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 ">
+
+          <h1 class="h1final">Novidades</h1>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+              <img class="imagensnoticia" src="img/noticia1.jpg">
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+              <p class="textonoticias"><span class="titulonoticias"><strong>Sequência de Animais Fantásticos e onde
+                    habitam Confirmada!</span></strong><br> ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+                fuga itaque
+                saepe ipsa deserunt. Quis doloremque explicabo ad, at aut porro dolore omnis fugiat, cum id libero
+                voluptatum inventore ipsam!</p>
+
+              
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+              <img class="imagensnoticia" src="img/noticia2.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+              <p class="textonoticias"><span class="titulonoticias"><strong>Novas versões dos livros de HP vendidas na
+                    Amazon!</span></strong><br> ipsum dolor sit amet consectetur, adipisicing elit. Tempora fuga itaque
+                saepe ipsa deserunt. Quis doloremque explicabo ad, at aut porro dolore omnis fugiat, cum id libero
+                voluptatum inventore ipsam!</p>
+
+              
+            </div>
+
+          </div>
+
+
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+              <img class="imagensnoticia" src="img/noticia3.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+              <p class="textonoticias"><span class="titulonoticias"><strong>Harry Potter ganhará sua maior loja temática
+                    em NY; confira as primeiras fotos</span></strong><br> ipsum dolor sit amet consectetur, adipisicing
+                elit. Tempora fuga itaque
+                saepe ipsa deserunt. Quis doloremque explicabo ad, at aut porro dolore omnis fugiat, cum id libero
+                voluptatum inventore ipsam!</p>
+
+              
+
+          </div>
+          <div>
+
+          </div>
+        </div>
+
+        <!--Parte de informações e redes sociais-->
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 ">
+          <h1 class="h1final">Sobre</h1>
+          <br>
+          <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus id debitis quaerat rem qui. Sint
+            aliquid
+            eligendi pariatur temporibus voluptatum hic quasi doloremque sit! Ullam illo ea suscipit maiores minima.
+            Ex nisi iste exercitationem reiciendis perferendis. Voluptatibus ea nobis dolore fugit provident harum
+            consectetur commodi repudiandae quis distinctio atque odio saepe aperiam corporis, inventore quae
+            laudantium est quasi debitis id.
+          </div>
+          <div>
+            <br>
+            <br>
+
+            <h1 class="h1final">Editorial</h1>
+            <br>
+            <p class="pfinal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+              </svg><strong>Redação:</strong>Thalles Ryan</p>
+            <p class="pfinal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+              </svg><strong>Pesquisa:</strong>Joel Miller</p>
+            <p class="pfinal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+              </svg><strong>Gerente Geral:</strong>Geralt de Rívia</p>
+            <p>
+            <h4 class="h1final">Redes Sociais:</h4><br><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+              fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+            </svg> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+              class="bi bi-twitter" viewBox="0 0 16 16">
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+            </svg> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+              class="bi bi-instagram" viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+
+  </main>
+
+
+  <!--Rodapé-->
+
+  <footer class="container">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+          <div>
+            <p class="rodape">Copyright 2020 - Disciplina de desenvolvimentos de interfaces web - <strong>ICEI PUC
+                Minas</strong></p>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+          <div>
+            <img src="img/logo.jpg" class="logofinal">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  <script src="siteFilmes.js"></script>
+  
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
